@@ -1,0 +1,13 @@
+.Conteiner{
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+
+}
+.Loading{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}

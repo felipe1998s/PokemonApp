@@ -1,4 +1,4 @@
-import DetailCard from "../../components/DetailCard/DetailCard";
+import DetailCard from "../../Components/DetailCard/DetailCard";
 import { useSelector,useDispatch } from "react-redux";
 import {useParams} from "react-router-dom";
 import { useEffect } from "react";

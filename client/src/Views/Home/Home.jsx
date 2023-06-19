@@ -1,11 +1,11 @@
-import CardsConteiner from "../../components/CardsConteiner/CardsConteiner";
+import CardsConteiner from "../../Components/CardsConteiner/CardsConteiner";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPokemonByTypes, getPokemons } from "../../redux/actions";
 import style from "./Home.module.css";
-import FilterConteiner from "../../components/FiltersConteiner/FiltersConteiner";
-import Loading from "../../components/Loading/Loading";
-import NavBar from "../../components/NavBar/NavBar";
+import FilterConteiner from "../../Components/FiltersConteiner/FiltersConteiner";
+import Loading from "../../Components/Loading/Loading";
+import NavBar from "../../Components/NavBar/NavBar";
 
 
 export const Home = () => {

@@ -3,7 +3,7 @@ import './App.css'
 import { Home, Landing, Form, Detail } from "./Views";
 import axios from "axios";
 import NotFound from "./Views/NotFound/NotFound";
-axios.defaults.baseURL = "https://pokemonapp-production-4f2d.up.railway.app" 
+axios.defaults.baseURL = "https://api-pokemon-app-mvg6.onrender.com" 
 // axios.defaults.baseURL = "http://localhost:3001";
 
 function App() {

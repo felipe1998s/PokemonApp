@@ -41,8 +41,7 @@ module.exports = (sequelize) => {
       },
       image:{
         type: DataTypes.STRING,
-        allowNull: true,
-        defaultValue:"https://st2.depositphotos.com/1116329/11882/v/450/depositphotos_118824632-stock-illustration-samara-russia-august-4-2016.jpg"
+        defaultValue:"https://st2.depositphotos.com/1116329/11882/v/450/depositphotos_118824632-stock-illustration-samara-russia-august-4-2016.jpg",
       },
       createdInBD: {
         type: DataTypes.BOOLEAN,
